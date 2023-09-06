@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.container h1 {
+    padding: 2em 0 1em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.container h3 {
+    padding: 1em;
+    font-size: 1.2em;
+}
+.container p {
+    text-align: justify;
+    padding: 1.4em;
+    text-indent: 1.2em;
+    line-height: 1.4em;
+}
+.container li {
+    text-align: justify;
+    padding: 1.4em;
+}

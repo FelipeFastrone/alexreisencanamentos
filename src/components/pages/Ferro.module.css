@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding: 2em;
+}
+
+.wrapper h1 {
+    padding: 1em 0 1em 0.3em;
+    width: fit-content;
+}
+.wrapper p{
+    line-height: 2em;
+    text-indent: 1em;
+    text-align: justify;
+}

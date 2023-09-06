@@ -1,0 +1,20 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding: 2em;
+}
+.wrapper h1 {
+    width: 89vw;
+    padding: 1em 0 2em 0em;
+}
+.wrapper p {
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 2em;
+    font-size: 1em;
+}
+.wrapper h3 {
+    padding: 1em 0 1em 0em;
+    font-weight: 700
+    
+}

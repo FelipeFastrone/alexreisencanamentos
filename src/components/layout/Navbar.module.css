@@ -1,0 +1,92 @@
+/* ========= Geral ======== */
+
+.navbar {
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo video{
+  width: 60%;
+  text-align: center;
+  padding: 2em;
+  border-radius: 49%;
+  margin: 0px 20px -80px 80px;
+}
+/* ======Social links ===== */
+.listSocial {
+  display: flex;
+  margin-top: 18px;
+  list-style: none;
+  gap: 1.2em;
+  font-size: 1.4em;
+  margin-left: 20px;
+
+}
+.icon{
+  color: #fff;
+
+}
+
+.itemSocial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* ========== Menu ========= */
+
+.list{
+  display: inline;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  margin-top: 60px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2em;
+  transition: 0.2ms;
+  
+}
+.item {
+  margin-right: 1em;
+}
+.item a{
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.item a:hover {
+  color: #2624DB;
+}
+
+.menu {
+  width: 100vw;
+  display: grid;
+  margin-top: 60px;
+  background-color: #0f0f77;
+
+
+}
+
+.menu.active {
+  opacity: 1;
+  visibility: visible;
+}
+.menuButton {
+  display: block;
+  width: 40px;
+  height: 42px;
+  color: #fff;
+  background-color: transparent;
+  font-size: 1.5em;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  margin-left: 340px;
+  margin-top: -34px;
+}
+
+.inactive {
+  display: none;
+}
